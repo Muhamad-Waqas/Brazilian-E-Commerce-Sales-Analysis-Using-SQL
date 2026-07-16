@@ -31,11 +31,3 @@ JOIN products p
 on oi.product_id = p.product_id ;
 
 
--- orders <-> payments -- 
-SELECT * FROM payments LIMIT 5;
-SELECT * FROM orders LIMIT 5;
-
--- verify joins --
-SELECT * FROM payments py
-JOIN orders o
-on py.order_id = o.order_id ;
