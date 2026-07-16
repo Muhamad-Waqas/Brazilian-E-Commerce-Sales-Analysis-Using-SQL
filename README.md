@@ -16,12 +16,20 @@ data-driven business insights.
 Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 Brazilian E-Commerce Public Dataset by Olist (Kaggle)
 
-The dataset contains:
+The dataset contains information about:
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
 
-- Customer information
-- Order details
-- Product information
-- Order item details
+For this project, the following tables were used:
+- Customers
+- Orders
+- Order Items
+- Products
 
 Multiple tables were joined to create a master join, analysis table
 called `sales_base`.
